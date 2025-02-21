@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.word-search-grid {
+  font-size: xx-large;
+}
+
+.word-search-grid .cell {
+  border: solid black 1px;
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  place-content: center;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.search-input {
+  margin-top: 1em;
+}
