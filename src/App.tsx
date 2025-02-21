@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
         <WordSearchGrid word={word} board={CASE_1.board} />
+
         <div className='search-input'>
           <input type="text" value={word} onChange={(ev) => setWord(ev.target.value)}/>
           <button onClick={() => {
